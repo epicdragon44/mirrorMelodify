@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Slider from "./Slider";
 
 function App(){
     function handleClick () {
@@ -23,6 +24,22 @@ function App(){
         <p className="paragraph">Then, close your eyes and relax for 45 minutes.</p>
         <button onClick={handleClick} className="button">Get Started</button>
     </div>;
+function App(){
+    return (
+        <div>
+            <header>
+                <title>Melödify</title>
+            </header>
+            <body>
+            <div id="centerbox">
+                <Slider />
+            </div>
+            </body>
+            <footer>
+                <p>Copyright Melödify 2020</p>
+            </footer>
+        </div>
+    );
 }
 
 export default App;
