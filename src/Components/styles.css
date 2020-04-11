@@ -1,3 +1,51 @@
-.heading {
-    color: red;
+.header {
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+    text-font: Montserrat;
+}
+
+.paragraph {
+    text-align: center;
+    text-font: Montserrat;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    background-color: #77f1f7;
+}
+
+.active {
+    background-color: #3387ff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+.left {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.logo-img {
+    width:170px;
+    height: auto;
 }
