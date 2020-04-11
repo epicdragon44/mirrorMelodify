@@ -1,3 +1,38 @@
 .heading {
     color: red;
 }
+
+#centerbox {
+    border: 3px solid #1C6EA4;
+    margin:0 auto;
+    position: relative;
+    width: 375px;
+    height: 667px;
+    alignment: center;
+
+    background: #FFFFFF;
+}
+
+.rangeslider{
+    width: 50%;
+}
+
+.myslider {
+    -webkit-appearance: none;
+    background: #FCF3CF  ;
+    width: 50%;
+    height: 20px;
+    opacity: 2;
+}
+
+.myslider:hover {
+    opacity: 1;
+}
+
+.myslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #34495E  ;
+    width: 5%;
+    height: 20px;
+}
