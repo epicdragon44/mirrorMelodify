@@ -80,3 +80,19 @@ li a:hover {
     width: 5%;
     height: 20px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    text-align:center;
+    background:linear-gradient(141deg, #cccccc 25%, #eeeeee 40%, #dddddd 55%);
+    color: #555555;
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:24px;
+    height:100vh;
+    overflow:hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    -webkit-transform: translate3d(0,0,0);
+}
