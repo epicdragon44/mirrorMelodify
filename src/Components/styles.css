@@ -42,7 +42,7 @@ li a:hover {
     background-color: #111;
 }
 .logo-img {
-    width:170px;
+    width:200px;
     height: auto;
 }
 
@@ -95,4 +95,30 @@ body {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000px;
     -webkit-transform: translate3d(0,0,0);
+}
+.research {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 80%;
+    margin: 10%;
+    margin-top: 40px;
+    float: left;
+    align-content: center;
+}
+.research h1 {
+    font-size: 1.3em;
+    margin-bottom: 6px;
+    text-decoration-color: black;
+}
+.research p {
+    font-family: Montserrat;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-indent: 50px;
+    text-align: left;
+    text-decoration-color: black;
 }
