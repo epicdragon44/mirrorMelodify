@@ -16,7 +16,14 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
 }
-
+.leftheader {
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 .paragraph {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
