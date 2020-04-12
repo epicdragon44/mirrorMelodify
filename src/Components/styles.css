@@ -4,7 +4,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    background: -webkit-linear-gradient(#444, #eee);
+    background: -webkit-linear-gradient(#444, #bebebe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 0px;
@@ -15,6 +15,8 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
+    color: 	#A9A9A9;
+    margin-bottom: 120px;
 }
 .leftheader {
     color: white;
@@ -28,6 +30,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
+    font-size: 18px;
 }
 
 .active {
