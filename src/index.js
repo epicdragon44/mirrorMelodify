@@ -5,6 +5,9 @@ import Home from "./Components/Home";
 import MusicGenerator from "./Components/MusicGenerator";
 import Error from "./Components/Error"
 import Navigation from "./Components/Navigation";
+import Research from "./Components/Research";
+import AboutUs from "./Components/AboutUs";
+import ContactUs from "./Components/ContactUs";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,6 +16,9 @@ ReactDOM.render(
           <Switch>
               <Route path="/" component={Home} exact />
               <Route path="/MusicGenerator" component={MusicGenerator}/>
+              <Route path="/Research" component={Research} exact />
+              <Route path="/AboutUs" component={AboutUs} exact />
+              <Route path="/ContactUs" component={ContactUs} exact />
               <Route component={Error}/>
           </Switch>
       </div>

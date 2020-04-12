@@ -2,18 +2,14 @@
     font-weight: 900;
     font-size: 3.5em;
     text-align: center;
-    text-font: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 .paragraph {
     text-align: center;
-    text-font: Montserrat;
-}
-
-.button {
-    display: block;
-    margin: auto;
-    background-color: #77f1f7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 .active {
