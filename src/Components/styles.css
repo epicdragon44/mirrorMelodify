@@ -1,6 +1,17 @@
 .header {
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#444, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+.header2 {
+    font-weight: 900;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -42,7 +53,7 @@ li a:hover {
     background-color: #111;
 }
 .logo-img {
-    width:170px;
+    width:200px;
     height: auto;
 }
 
@@ -79,4 +90,46 @@ li a:hover {
     background: #34495E  ;
     width: 5%;
     height: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    text-align:center;
+    background:linear-gradient(141deg, #cccccc 25%, #eeeeee 40%, #dddddd 55%);
+    color: #555555;
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:24px;
+    height:100vh;
+    overflow:hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    -webkit-transform: translate3d(0,0,0);
+}
+.research {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 80%;
+    margin: 10%;
+    margin-top: 40px;
+    float: left;
+    align-content: center;
+}
+.research h1 {
+    font-size: 1.3em;
+    margin-bottom: 6px;
+    text-decoration-color: black;
+}
+.research p {
+    font-family: Montserrat;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-indent: 50px;
+    text-align: left;
+    text-decoration-color: black;
 }
